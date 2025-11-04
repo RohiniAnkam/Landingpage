@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masala Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        .Home {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 40px;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .Home img {
+      height: 350px;
+      width: 350px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .Home p {
+      font-size: 18px;
+      text-align: justify;
+      max-width: 600px;
+    }
+
+         header {
+      grid-area: header;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: orange;
+      color: white;
+      padding: 20px 40px;
+    }
+    .masala{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: space-between;
+        
+    }
+    .masala img{
+        width: 250px;
+        height: 250px;
+      padding: 20px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+     <header>
+        <h1>Masala Products</h1>
+        <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+        </nav>        
+    </header>
+    <section id="home" class="Home">
+        
+        <img style="float: left; height: 350px; width: 350px;" src="https://zamaorganics.com/cdn/shop/articles/Untitled_design_42_bda1f678-637d-4bda-9d7a-cb4e6fbc4046.jpg?v=1729596701" alt="Not found">
+            <p>Masala products are blends of ground spices used in Indian cooking to add flavor, aroma,
+             and color to a wide range of dishes. They can be a dry powder mix, a paste, or whole spices, 
+             and their ingredients vary by region and intended use, with common components including cumin,
+              coriander, turmeric, chili, and garam masala spices like cinnamon and cloves. </p>
+              
+    </section>
+    <section id="products" class="Products">
+        <h1>Products</h1>
+        <div class="masala">
+            <img src="https://catchfoods.com/wp-content/uploads/2021/06/Grounded-Spices1.png" alt="Not Found">
+              
+            <img src="https://www.efghfoods.com/wp-content/uploads/2022/07/Garam-Masala-361x272.jpg" alt="Not Found">
+       
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr04P-GbawM4QsjciW9T4jYAuAgQMtXwFdTQ&s" alt="Not Found">
+       
+            <img src="https://tiimg.tistatic.com/fp/1/009/021/100-pure-organic-multi-flavors-raw-masala-562.jpg" alt="Not Found">
+        
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2H5VhVo7kLUE2hXVRa_8PkZ0v9BTQw3INBA&s" alt="Not Found">
+        
+            <img src="https://c.ndtvimg.com/2021-09/et6srv6_masala-powder_625x300_17_September_21.png" alt="Not Found">
+        </div>
+    </section>
+    <section id="contact" class="Contact">
+        <h1>Reach us</h1>
+<p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+  <p><i class="fa-solid fa-envelope"></i> info@masalaproducts.com</p>
+    </section>
+    <footer>
+         &copy; 2025 Masala Products | All rights reserved
+    </footer>
+    </div>
+    
+   
+</body>
+</html>
